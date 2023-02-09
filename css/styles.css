@@ -1,0 +1,209 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.hed{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 5rem;
+ 
+}
+
+
+
+/* ---------------------------------------------------/* NAv Bar *---------------------------------------------- */
+
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#drop{
+    margin-left: auto;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+
+
+
+/* -------------------------------------------------------/* Title *---------------------------------------------- */
+
+
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-right: 30%;
+}
+.downloadbtn{
+    margin: 5% 3% 5% 0;
+}
+@media(max-width: 1028px) 
+{
+    #title{
+        text-align: center;
+    
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        
+    }   
+}
+
+
+
+
+/* ---------------------------------------------------/* Features *---------------------------------------------- */
+
+
+
+
+
+.cont{
+    text-align: center;
+    padding: 5%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+
+}
+.para{
+    color: #8f8f8f;
+}
+
+.hrt{
+    size: 10px;
+}
+.logo{
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.logo:hover{
+    color: #ff4c68;
+}
+
+
+
+/* -----------------------------------------------/* Testimonials *------------------------------------------- */
+
+
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+
+/* -------------------------------------------------------/* Press *--------------------------------------------- */
+
+
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-pic{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+ 
+
+
+/* -------------------------------------------------------/* Price *------------------------------------------- */
+
+
+
+.price-btn{
+    padding: 0 100px;
+    border-color: rgb(0, 170, 255);
+}
+.price-p{
+    color: #8f8f8f;
+    padding-top: 0;
+}
+.price-cont{
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+
+/* -------------------------------------------------------/* Price *------------------------------------------ */
+
+
+
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family:'Montserrat';
+    color: #fff;
+}
+.cat-head{
+    font-size: 3.5rem;
+    font-family: "montserrat";
+}
+
+
+
+
+/* -------------------------------------------------------/* Footer *----------------------------------------------------- */
+
+
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    line-height: 3;
+    color: #8f8f8f;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.fticon{
+    color: black;
+    margin: 1%;
+}
